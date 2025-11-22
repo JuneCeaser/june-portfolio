@@ -39,7 +39,7 @@ export const Hero = () => {
             <Button 
               variant="outline" 
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-              onClick={() => window.open('src/assets/cv.pdf', '_blank')}
+              onClick={() => window.open('public/cv.pdf', '_blank')}
             >
               Download CV
             </Button>
